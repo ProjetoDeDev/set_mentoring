@@ -1,1 +1,1 @@
-web: set_mentoring.wsgi
+web: gunicorn set_mentoring.wsgi
